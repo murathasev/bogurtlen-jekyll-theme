@@ -1,0 +1,192 @@
+
+  h1 {
+  text-overflow: ellipsis !important;
+  }
+  @media only screen and (max-width:620px) {
+    body {
+    width:500px !important;
+    }
+    p {
+    word-break: break-word;
+    width:10% !important;
+    margin-left:0px !important;
+    margin-right:0px !important;
+  }
+  /* For mobile phones: */
+  .emojiler, .menu, #header-alti,  #reklam {
+    display:none !important;
+  }
+	  .logo {
+	   margin:-left:0px !important;
+	   margin-right:0px !important;
+     text-align:center;
+	  }
+    .icerik-4 {
+  width:10% !important;
+  }
+  .icerik-3 {
+  width:10% !important;
+  }
+	}
+
+
+  @media only screen and (min-width:768px) {
+  .icerik-4 {
+  width:25% !important;
+  }
+  .icerik-3 {
+  width:25% !important;
+  }
+  }
+
+  @media only screen and (max-width:1000px) {
+    .icerik-4 {
+  display:none !important;
+  }
+  .icerik-3 {
+  display:none !important;
+  }
+  }
+
+  @media only screen and (min-width:1368px) {
+      #icerik-kismi {
+      margin-left:5%;
+    }
+  }
+  
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    .posts {
+      margin-left:30px; 
+
+    }
+	
+	
+	.entry p { 
+	display:none;
+	}
+	
+   article {
+   margin-top:15px;
+   margin-left:5px;
+	}
+	
+   .post {
+          float:left;
+	   	    margin-top:10px;
+    display:block;
+   }
+ 
+   .post h1 a {
+     text-overflow:ellipsis !important;
+   }
+	
+    .entry p img {
+	   
+	   display:none;
+	}
+	
+	
+	.post h1 a {
+	display:block;
+	text-decoration:none;
+        color:#222222;
+	margin-top:20px;
+        margin-left:5px;
+	}
+	
+	.post h1 a:hover {
+	color:#f35639;
+	}
+     
+  * {
+    margin:0px;
+    padding:0px;
+    font-family: 'Roboto', sans-serif;
+    }
+    .menu {
+    display:block;
+    padding-left:20px;
+    margin-left:150px;
+    margin-top:-22px;
+    }
+    .menu li {
+    float:left;
+    display:block;
+    font-weight:500;
+    }
+    .menu li a {
+    float:left !important;
+    padding-left:60px;
+    color:white;
+    text-decoration:none;
+    }
+    .emojiler:hover {
+    height:45px !important;
+    }
+    #header-alti {
+    padding-top:32px;
+    }
+    .icerik-1 {
+    display:block;
+    background-image:url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=1");
+    height:420px;
+    width:549px;
+    background-size:cover;
+    border-radius:2px;
+    float:left;
+    }
+    .icerik-2 {
+    display:block;
+    background-image:url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?auto=compress&cs=tinysrgb&dpr=1");
+    height:420px;
+    width:390px;
+    background-size:cover;
+    border-radius:2px;
+    float:left;
+    margin-left:10px;
+    }
+    .icerik-3 {
+    display:block;
+    background-image:url("https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=2");
+    height:210px;
+    width:390px;
+    background-size:cover;
+    border-radius:2px;
+    float:left;
+    margin-left:10px;
+    }
+    .icerik-4 {
+    display:block;
+    background-image:url("https://images.pexels.com/photos/807330/pexels-photo-807330.jpeg?auto=compress&cs=tinysrgb&dpr=2");
+    height:197px;
+    width:390px;
+    background-size:cover;
+    border-radius:2px;
+    float:left;
+    margin-left:10px;
+    margin-top: 10px;
+    }
+    .icerikler {
+    -webkit-box-shadow: 0px -1px 24px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 24px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 24px -10px rgba(0,0,0,0.75);
+    padding-left:10px;
+    padding-top:5px;
+    background-color:#eeeeee;
+    height:100%;
+    }
+    .icerik-1 h1, .icerik-2 h1, .icerik-3 h1, .icerik-4 h1 {
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
+    }
+
+    .thumbnail-gibimsi {
+	background: #f85032;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       width:262px;
+       height:147px;
+       border-radius:1px;	    
+       float:left;
+       display:block;
+       margin-top:10px;
+    
+    }

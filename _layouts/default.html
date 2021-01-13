@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+      {% include meta.html %}
+      <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
+      <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+   </head>
+   <body>
+      <div style="display:block; font-family: 'Roboto', sans-serif; height:60px; background: #f85032;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #e73827, #f85032);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #e73827, #f85032); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */" id="header">
+         <div id="logo">
+            <a style="color:white; text-decoration:none; font-weight:900; font-size:24px; margin-left:50px; display:block;  padding-top:15px; " href="#">{{ site.name }}</a>
+         </div>
+         <div class="menu" >
+            <ul>
+               <li><a href="{{site.url}}">HOME</a></li>
+            </ul>
+            <ul>
+               <li><a href="{{ site.baseurl }}">BLOG</a></li>
+            </ul>
+         </div>
+         <div style="clear:left;"></div>
+         <div> <a href="#"><img  class="emojiler" style="margin-left:85%; height:50px; margin-top:-55px;" src="https://cdn.discordapp.com/attachments/742021935164162071/771037358074232872/emoijer-muratbaba.png"></a></div>
+      </div>
+      </div>
+      <div id="main" role="main" class="container">
+         {{ content }}
+      </div>
+      <div class="wrapper-footer">
+         <div class="container">
+            <footer class="footer">
+               {% include svg-icons.html %}
+            </footer>
+         </div>
+      </div>
+      {% include analytics.html %}
+   </body>
+</html>

@@ -1,0 +1,16 @@
+ .post , .entry , .date, .entry p, .entry img, .article  {
+   display:block !important;
+ }
+ 
+ 
+ .post {
+  width:800px;  
+  word-wrap:break-word;
+  margin-left:20%;
+ }
+
+
+#reklam {
+background-color:#e0e0e0;
+height:282px;
+}

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div style="background-color:#e0e0e0; height:428px;" id="header-alti">
+   <div class="icerikler">
+      <div id="icerik-kismi">
+         <a href="#">
+            <div class="icerik-1">
+               <h1 style="color:white; padding-top:60%; padding-left:5%;">Test 1</h1>
+            </div>
+         </a>
+         <a href="#">
+            <div class="icerik-2">
+               <h1 style="color:white; padding-top:85%; padding-left:5%;">Test 2</h1>
+            </div>
+         </a>
+         <a href="#">
+            <div class="icerik-3">
+               <h1 style="color:white; padding-top:40%; padding-left:5%;">Test 3</h1>
+            </div>
+         </a>
+         <a href="#">
+            <div class="icerik-4">
+               <h1 style="color:white; padding-top:40%; padding-left:5%;">Test 4</h1>
+            </div>
+         </a>
+         <div style="clear:left;"></div>
+      </div>
+   </div>
+</div>
+<br><br>
+<h1 style="margin-left:25px;" style="color:#f35639 !important;">Posts</h1>
+<div class="posts">
+   {% for post in site.posts %}
+   <div class="thumbnail-gibimsi" style="background-image:url('{{ "/images/" | prepend: site.baseurl | append: post.img }}') !important;  background-size:cover;">
+</div>
+<article class="post">
+   <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+   <div class="entry">
+      {{ post.excerpt }}
+   </div>
+</article>
+<div style="clear:left;"></div>
+{% endfor %}
+</div>
